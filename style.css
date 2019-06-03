@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    font-size: medium;
+    margin: 0;
+}
+#nav {
+    width: calc(100% - 40px);
+    padding: 20px;
+    height: 60px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    user-select: none;
+    -moz-user-select: none;
+}
+#nav > div {
+    width: 20%;
+}
+div.card {
+    display: inline-block;
+    padding: 12px;
+    margin: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+div.card:hover {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 0px 5px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+div.card-disabled {
+    display: inline-block;
+    padding: 12px;
+    margin: 10px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 0px 5px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+#progress-div {
+    width: 100%;
+    position: fixed;
+    margin-top: 80px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+    background: white;
+}
+#thumbnails {
+    width: calc(100% - 40px);
+    padding-top: 120px;
+    padding-left: 20px;
+    user-select: none;
+    -moz-user-select: none;
+}
+img:hover {
+    cursor: pointer;
+}
+label:hover {
+    cursor: pointer;
+}
